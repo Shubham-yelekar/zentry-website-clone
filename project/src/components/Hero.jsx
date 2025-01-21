@@ -1,10 +1,10 @@
 import React from "react";
 import { useState, useRef, useEffect } from "react";
-import { gsap } from "gsap";
+import Button from "./Button";
 import { TiLocationArrow } from "react-icons/ti";
+import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
-import Button from "./Button";
 
 gsap.registerPlugin(ScrollTrigger);
 
