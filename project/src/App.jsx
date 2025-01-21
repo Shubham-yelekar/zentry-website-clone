@@ -1,14 +1,13 @@
-import './App.css'
-import { FaBeer } from 'react-icons/fa';
+import "./App.css";
+import { Hero } from "./components";
 
 function App() {
-
-
   return (
-    <>
-      <h1 className='text-2xl text-gray-100'>New Project 🍺 </h1>
-    </>
-  )
+    <main className="relative min-h-screen w-screen overflow-hidden">
+      <Hero />
+      <section className="min-h-screen bg-slate-500"></section>
+    </main>
+  );
 }
 
-export default App
+export default App;
